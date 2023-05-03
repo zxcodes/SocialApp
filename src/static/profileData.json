@@ -1,0 +1,105 @@
+{
+  "profileData": {
+    "username": "@tashmat",
+    "followers": "10k",
+    "following": "250",
+    "displayPicture": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+    "bio": "My name is Tashmat, I like photography and traveling all around  the world.",
+    "galleryImages": [
+      {
+        "id": 1,
+        "url": "https://images.unsplash.com/photo-1680484702376-ce814193208f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8NnNNVmpUTFNrZVF8fGVufDB8fHx8&w=1000&q=80"
+      },
+      {
+        "id": 2,
+        "url": "https://images.unsplash.com/photo-1682173051316-86ad29c08b6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDZ8NnNNVmpUTFNrZVF8fGVufDB8fHx8&w=1000&q=80"
+      },
+      {
+        "id": 3,
+        "url": "https://images.unsplash.com/photo-1682406430465-06ec03571cfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDl8NnNNVmpUTFNrZVF8fGVufDB8fHx8&w=1000&q=80"
+      },
+      {
+        "id": 4,
+        "url": "https://images.unsplash.com/photo-1682339205437-ad18e4a4d6fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEwfDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&w=1000&q=80"
+      },
+      {
+        "id": 5,
+        "url": "https://images.unsplash.com/photo-1682048643811-fe98d3726b93?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE0fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&w=1000&q=80"
+      },
+      {
+        "id": 6,
+        "url": "https://images.unsplash.com/photo-1682364284611-b3201041f7d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE2fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&w=1000&q=80"
+      },
+      {
+        "id": 7,
+        "url": "https://images.unsplash.com/photo-1682343161292-abeebabf3e86?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE4fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&w=1000&q=80"
+      },
+      {
+        "id": 8,
+        "url": "https://images.unsplash.com/photo-1682338009246-ecf5bbc02d6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDIxfDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&w=1000&q=80"
+      },
+      {
+        "id": 9,
+        "url": "https://images.unsplash.com/photo-1682556194247-fb9c5797eff9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDI1fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&w=1000&q=80"
+      },
+      {
+        "id": 10,
+        "url": "https://images.unsplash.com/photo-1682361370648-521dce49abb2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDI4fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&w=1000&q=80"
+      },
+      {
+        "id": 12,
+        "url": "https://images.unsplash.com/photo-1682343161251-5d9628e09904?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDMwfDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&w=1000&q=80"
+      },
+      {
+        "id": 13,
+        "url": "https://images.unsplash.com/photo-1682321297054-519c8a76756b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDMzfDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&w=1000&q=80"
+      },
+      {
+        "id": 14,
+        "url": "https://images.unsplash.com/photo-1682085269766-3e80bc6c1645?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDM2fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&w=1000&q=80"
+      },
+      {
+        "id": 15,
+        "url": "https://images.unsplash.com/photo-1682621034494-2242e054972c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8&w=1000&q=80"
+      }
+    ]
+  },
+  "allUsers": [
+    {
+      "username": "Kanat",
+      "userId": "1234",
+      "hasStory": true,
+      "displayPicture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      "username": "Meerim",
+      "userId": "5678",
+      "hasStory": true,
+      "displayPicture": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      "username": "Tashmat",
+      "userId": "91011",
+      "hasStory": true,
+      "displayPicture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      "username": "John",
+      "userId": "123454",
+      "hasStory": true,
+      "displayPicture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      "username": "Sara",
+      "userId": "567978",
+      "hasStory": true,
+      "displayPicture": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      "username": "Andrew",
+      "userId": "89776",
+      "hasStory": true,
+      "displayPicture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+    }
+  ]
+}

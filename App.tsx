@@ -1,20 +1,54 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import BottomNavBar from "@app/navigation/BottomNavBar";
+import { NavigationContainer } from "@react-navigation/native";
+import React, { Fragment, useCallback, useEffect, useState } from "react";
+import { useFonts } from "expo-font";
+import * as SplashScreen from "expo-splash-screen";
+import NetInfo from "@react-native-community/netinfo";
+import { NoNetwork } from "@app/components";
 
-export default function App() {
+function App(): JSX.Element | null {
+  const [noNetwork, setNoNetwork] = useState<boolean>(false);
+
+  useEffect(() => {
+    const networkInfoSubscription = NetInfo.addEventListener((state) => {
+      if (!state.isConnected) {
+        setNoNetwork(true);
+      } else {
+        setNoNetwork(false);
+      }
+    });
+    return () => networkInfoSubscription();
+  });
+
+  const [fontsLoaded] = useFonts({
+    "Poppins-Bold": require("./assets/fonts/Poppins-Bold.ttf"),
+    "Poppins-SemiBold": require("./assets/fonts/Poppins-SemiBold.ttf"),
+    "Poppins-Light": require("./assets/fonts/Poppins-Light.ttf"),
+    "Poppins-Regular": require("./assets/fonts/Poppins-Regular.ttf"),
+  });
+
+  useCallback(async () => {
+    if (fontsLoaded) {
+      await SplashScreen.hideAsync();
+    }
+  }, [fontsLoaded]);
+
+  if (!fontsLoaded) {
+    return null;
+  }
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    // eslint-disable-next-line react/jsx-no-useless-fragment
+    <Fragment>
+      {noNetwork ? (
+        <NoNetwork />
+      ) : (
+        <NavigationContainer>
+          <BottomNavBar />
+        </NavigationContainer>
+      )}
+    </Fragment>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
