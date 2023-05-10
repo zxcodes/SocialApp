@@ -96,7 +96,7 @@ function CameraScreen({ navigation }: CameraScreenProps): JSX.Element | null {
   const recordVideo = () => {
     setIsRecording(true);
     const recordingOptions = {
-      quality: "480p",
+      quality: "1080p",
       maxDuration: MAX_VIDEO_RECORDING_LENGTH,
       mute: false,
     };
@@ -156,7 +156,7 @@ function CameraScreen({ navigation }: CameraScreenProps): JSX.Element | null {
           setCameraReady(true);
         }}
       />
-      <Spacer value={20} />
+      <Spacer value={10} />
       <FlexContainer>
         <AppButton
           disabled={cameraReady ? false : true}
@@ -174,6 +174,8 @@ const styles = StyleSheet.create({
     flex: 0.8,
     alignItems: "center",
     justifyContent: "center",
+    margin: 20,
+    borderRadius: 10,
   },
   videoPreview: {
     flex: 0.8,

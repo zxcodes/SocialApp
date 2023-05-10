@@ -46,9 +46,3 @@ yarn start
 - Expo Go App: https://play.google.com/store/apps/details?id=host.exp.exponent
 
 - The App will be up and running.
-
-### Things that can be improved in this App but in the given time frame, the current state felt possible:
-
-1. Smoothening toggling between states.
-2. Better indicators while recording video or displaying videos in the feed.
-3. Better styling while recording videos.

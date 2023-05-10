@@ -1,3 +1,4 @@
+/* eslint-disable react-native/no-inline-styles */
 import {
   HomeScreen,
   ChatScreen,
@@ -47,7 +48,8 @@ export default () => {
       initialRouteName={initialRouteName}
       screenOptions={screenOptions}
       sceneContainerStyle={{
-        backgroundColor: Colors.LightSkyBlue,
+        backgroundColor: Colors.JustWhite,
+        marginBottom: isAndroid ? 0 : -40,
       }}
     >
       <Tab.Screen

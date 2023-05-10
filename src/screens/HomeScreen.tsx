@@ -6,37 +6,36 @@ import {
   StoriesList,
   VideoCard,
 } from "@app/components";
-import Space from "@app/components/Spacer";
 import {
   FlexContainer,
   MainContainer,
   PaddingContainer,
 } from "@app/containers";
 import StaticData from "@app/static/profileData.json";
-import { VideoType } from "@app/types";
+import { BottomScreensParamsList, VideoType } from "@app/types";
 import { Colors, deviceHeight, getFromLocalStorage } from "@app/utils";
 import { CameraIcon, HomeNotificationsIcon, VideoNotFound } from "@assets/svg";
+import { BottomTabScreenProps } from "@react-navigation/bottom-tabs";
 import { useIsFocused } from "@react-navigation/native";
 import React, { Fragment, useEffect, useState } from "react";
 import { ScrollView, StyleSheet, View } from "react-native";
 
-function handleNotifications() {
-  return null;
-}
+type HomeScreenProps = BottomTabScreenProps<
+  BottomScreensParamsList,
+  "HomeScreen"
+>;
 
-function handleCameraLaunch() {
-  return null;
-}
-
-export default function HomeScreen(): JSX.Element {
+export default function HomeScreen({
+  navigation,
+}: HomeScreenProps): JSX.Element {
   const isFocussed = useIsFocused();
   const [feedVideos, setFeedVideos] = useState<any>();
 
   const fetchFeedVideos = async () => {
     try {
-      const res = await getFromLocalStorage("videos");
-      if (res) {
-        setFeedVideos(res);
+      const videos = await getFromLocalStorage("videos");
+      if (videos) {
+        setFeedVideos(videos);
       } else {
         setFeedVideos(null);
       }
@@ -56,13 +55,14 @@ export default function HomeScreen(): JSX.Element {
       fillHeight
       style={styles.mainContainer}
     >
-      <ScrollView>
-        <Space value={10} />
+      <ScrollView showsVerticalScrollIndicator={false}>
         <PaddingContainer>
           <FlexContainer position="rowBetween">
             <QuickActionButton
               style={{ backgroundColor: Colors.LightSkyBlue }}
-              onPress={handleCameraLaunch}
+              onPress={() => {
+                navigation.navigate("CameraScreen");
+              }}
             >
               <CameraIcon height={20} width={20} />
             </QuickActionButton>
@@ -71,7 +71,7 @@ export default function HomeScreen(): JSX.Element {
             </AppText>
             <QuickActionButton
               style={{ backgroundColor: Colors.LightSkyBlue }}
-              onPress={handleNotifications}
+              onPress={() => navigation.navigate("NotificationsScreen")}
             >
               <HomeNotificationsIcon height={20} width={20} />
             </QuickActionButton>
